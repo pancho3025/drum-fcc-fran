@@ -1,0 +1,19 @@
+.dj-cont
+
+    height: 477px
+    display: flex
+    align-items: center
+    justify-content: center
+    background: radial-gradient(ellipse at center, rgba(240, 249, 255, 1) -77%,#919191 100%)
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, .25)
+
+.cont
+    display: grid
+    grid-template-columns: repeat(3,120px)
+    grid-template-rows: repeat(3,110px)
+    margin: 17px
+
+@media (max-width: 665px)
+    .dj-cont
+        flex-direction: column
+        height: 600px
